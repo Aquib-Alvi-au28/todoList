@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: orangered;
+    color: black;
+    margin: 0;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.sec {
+    background-color: orangered;
+    height: 78.8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 50vw;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.inp {
+    border: 2px solid orangered;
+    margin-top: 10px;
+    width: 400px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.add-btn {
+    color: black;
+    background-color: orangered;
+    border: 2px solid orangered;
+    font-size: 16px;
+    padding: 4.2px 10px;
+}
+
+.add-btn:hover {
+    background-color: black;
+    color: orangered;
+    transition: 0.3s;
+
+}
